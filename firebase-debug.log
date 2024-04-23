@@ -1,0 +1,86 @@
+[debug] [2024-04-23T04:04:26.935Z] ----------------------------------------------------------------------
+[debug] [2024-04-23T04:04:26.938Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-04-23T04:04:26.939Z] CLI Version:   13.7.3
+[debug] [2024-04-23T04:04:26.939Z] Platform:      win32
+[debug] [2024-04-23T04:04:26.939Z] Node Version:  v18.17.0
+[debug] [2024-04-23T04:04:26.941Z] Time:          Tue Apr 23 2024 09:34:26 GMT+0530 (India Standard Time)
+[debug] [2024-04-23T04:04:26.941Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-23T04:04:27.079Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-23T04:04:27.080Z] > authorizing via signed-in user (mihisankam@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\4 year\FYP_SLTC\Codes\New folder\test user\test 1\PWA
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-23T04:04:38.701Z] Using project from CLI flag: fyphotstest
+[debug] [2024-04-23T04:04:38.709Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fyphotstest [none]
+[debug] [2024-04-23T04:04:39.688Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fyphotstest 403
+[debug] [2024-04-23T04:04:39.689Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fyphotstest {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-04-23T04:04:39.690Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-04-23T04:04:39.964Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\DELL\AppData\Roaming\nvm\v18.17.0\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\DELL\AppData\Roaming\nvm\v18.17.0\node_modules\firebase-tools\lib\apiv2.js:299:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project fyphotstest. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-04-23T07:57:42.572Z] ----------------------------------------------------------------------
+[debug] [2024-04-23T07:57:42.577Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-04-23T07:57:42.579Z] CLI Version:   13.7.3
+[debug] [2024-04-23T07:57:42.581Z] Platform:      win32
+[debug] [2024-04-23T07:57:42.581Z] Node Version:  v18.17.0
+[debug] [2024-04-23T07:57:42.583Z] Time:          Tue Apr 23 2024 13:27:42 GMT+0530 (India Standard Time)
+[debug] [2024-04-23T07:57:42.584Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-23T07:57:42.927Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-23T07:57:42.930Z] > authorizing via signed-in user (mihisankam@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\4 year\FYP_SLTC\Codes\New folder\test user\test 1\PWA
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-23T07:57:52.563Z] Using project from CLI flag: fyphotstest
+[debug] [2024-04-23T07:57:52.568Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fyphotstest [none]
+[debug] [2024-04-23T07:57:57.012Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fyphotstest 403
+[debug] [2024-04-23T07:57:57.012Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fyphotstest {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-04-23T07:57:57.013Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-04-23T07:57:58.170Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\DELL\AppData\Roaming\nvm\v18.17.0\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\DELL\AppData\Roaming\nvm\v18.17.0\node_modules\firebase-tools\lib\apiv2.js:299:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project fyphotstest. Please make sure the project exists and your account has permission to access it.
